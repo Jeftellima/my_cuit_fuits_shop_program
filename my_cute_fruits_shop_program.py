@@ -83,6 +83,8 @@ def cria_dicionario_de_produtos_por_id(produtos):
 
     return produtos_por_id
 
+def apresenta_mensagem_finalizacao_da_compra():
+    print('Compra finalizada com Sucesso! Volte sempre')
 
 ###############################################################################
 # Funcao principal
@@ -104,6 +106,8 @@ def my_cute_fruits_shop_program():
     n_unidades = aguarda_numero_de_unidades_a_serem_compradas()
 
     apresenta_resumo_de_compra(produto, n_unidades)
+    apresenta_mensagem_finalizacao_da_compra()
+
 
 
 ###############################################################################
